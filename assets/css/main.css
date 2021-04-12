@@ -1812,6 +1812,28 @@ input, select, textarea {
 
 	}
 
+/* Portfolio Container */
+
+	.portfolioButtons {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.portfolioContainer {
+		margin: 0 auto;
+		width: 50%;
+		display: flex;
+		justify-content: space-between
+	}
+
+	@media screen and (max-width: 985px) {
+
+		.portfolioContainer {
+			flex-direction: column;	
+		}
+	}
+
 /* Form */
 
 	form {
